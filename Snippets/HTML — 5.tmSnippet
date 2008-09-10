@@ -4,13 +4,28 @@
 <dict>
 	<key>content</key>
 	<string>&lt;!doctype html&gt;
-$0</string>
+&lt;html lang="${1:en}"&gt;
+
+&lt;head&gt;
+	&lt;title&gt;${2:Page Title}&lt;/title&gt;
+&lt;/head&gt;
+
+&lt;body&gt;
+	${3:${4:&lt;header&gt;&lt;h1&gt;${2:Page Heading}&lt;/h1&gt;&lt;/header&gt;}
+	${5:&lt;section&gt;
+		$0
+	&lt;/section&gt;}
+	${6:&lt;footer&gt;${7:license information}&lt;/footer&gt;}}
+&lt;/body&gt;
+
+&lt;/html&gt;
+</string>
 	<key>name</key>
-	<string>HTML — 5</string>
+	<string>Quick Template</string>
 	<key>scope</key>
 	<string>text.html</string>
 	<key>tabTrigger</key>
-	<string>doc</string>
+	<string>qt</string>
 	<key>uuid</key>
 	<string>16E02FC6-2D39-406B-8927-E2770AFC72BA</string>
 </dict>

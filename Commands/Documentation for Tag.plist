@@ -87,7 +87,8 @@ $tags = {
   "value"      =&gt; "value",
   "dl"         =&gt; "dl",
   "dt"         =&gt; "dt",
-  "dd"         =&gt; "dd"
+  "dd"         =&gt; "dd",
+  "small"      =&gt; "the-small"
 }
 
 def request_tag_name (default_tag = "body")
@@ -116,7 +117,7 @@ puts "&lt;meta http-equiv='Refresh' content='0;URL=#{url}'&gt;"
 	<key>keyEquivalent</key>
 	<string>^h</string>
 	<key>name</key>
-	<string>Documentation for Tag</string>
+	<string>Lookup tag</string>
 	<key>output</key>
 	<string>showAsHTML</string>
 	<key>scope</key>

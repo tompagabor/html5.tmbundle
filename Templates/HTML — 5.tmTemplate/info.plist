@@ -11,7 +11,7 @@ fi</string>
 	<key>extension</key>
 	<string>html</string>
 	<key>name</key>
-	<string>HTML — 5</string>
+	<string>New File Template</string>
 	<key>scope</key>
 	<string>text.html</string>
 	<key>uuid</key>

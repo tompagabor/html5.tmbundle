@@ -30,7 +30,7 @@ end
 	<key>keyEquivalent</key>
 	<string>^V</string>
 	<key>name</key>
-	<string>Validate HTML (validator.nu)</string>
+	<string>Validate HTML</string>
 	<key>output</key>
 	<string>showAsHTML</string>
 	<key>scope</key>
