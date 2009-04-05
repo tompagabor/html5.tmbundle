@@ -4,20 +4,14 @@
 <dict>
 	<key>content</key>
 	<string>&lt;!doctype html&gt;
-&lt;html lang="${1:en}"&gt;
-
+&lt;html${1:${2: lang='${3:en-us}'}${4: xmlns='http://www.w3.org/1999/xhtml'}}&gt;
 &lt;head&gt;
-	&lt;title&gt;${2:Page Title}&lt;/title&gt;
+${5:	&lt;meta charset='${6:utf-8}'${TM_XHTML}&gt;
+}	&lt;title&gt;${7:Page Title}&lt;/title&gt;
 &lt;/head&gt;
-
 &lt;body&gt;
-	${3:${4:&lt;header&gt;&lt;h1&gt;${2:Page Heading}&lt;/h1&gt;&lt;/header&gt;}
-	${5:&lt;section&gt;
-		$0
-	&lt;/section&gt;}
-	${6:&lt;footer&gt;${7:license information}&lt;/footer&gt;}}
+	$0
 &lt;/body&gt;
-
 &lt;/html&gt;
 </string>
 	<key>name</key>
