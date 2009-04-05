@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>&lt;html${1: lang='en-us'}&gt;
+	<string>&lt;html${1: ${2:lang='${3:en-us}'}${4: xmlns='http://www.w3.org/1999/xhtml'}}&gt;
 $0
 &lt;/html&gt;</string>
 	<key>name</key>
