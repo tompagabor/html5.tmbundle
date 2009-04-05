@@ -21,8 +21,7 @@ io &lt;&lt; page; io.close_write
     puts line
   end
 end
-
-#curl -F "showsource=yes" -F "content=ok;type=text/html" http://validator.nu/</string>
+</string>
 	<key>dontFollowNewOutput</key>
 	<true/>
 	<key>input</key>
