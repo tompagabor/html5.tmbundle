@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>&lt;!doctype html&gt;
+	<string>&lt;!DOCTYPE html&gt;
 $0</string>
 	<key>name</key>
 	<string>Insert Doctype</string>

@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>&lt;!doctype html&gt;
+	<string>&lt;!DOCTYPE html&gt;
 &lt;html${1:${2: lang='${3:en-us}'}${4: xmlns='http://www.w3.org/1999/xhtml'}}&gt;
 &lt;head&gt;
 ${5:	&lt;meta charset='${6:utf-8}'${TM_XHTML}&gt;
