@@ -33,6 +33,7 @@ $tags = {
 "h4" =&gt; "the-h1,-h2,-h3,-h4,-h5,-and-h6-elements",
 "h5" =&gt; "the-h1,-h2,-h3,-h4,-h5,-and-h6-elements",
 "h6" =&gt; "the-h1,-h2,-h3,-h4,-h5,-and-h6-elements",
+"hgroup" =&gt; "the-hgroup-element",
 "header" =&gt; "the-header-element",
 "footer" =&gt; "the-footer-element",
 "address" =&gt; "the-address-element",
