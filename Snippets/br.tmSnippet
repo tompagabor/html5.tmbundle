@@ -7,7 +7,7 @@
 	<key>keyEquivalent</key>
 	<string>^</string>
 	<key>name</key>
-	<string>br</string>
+	<string>&lt;br&gt;</string>
 	<key>scope</key>
 	<string>text.html</string>
 	<key>uuid</key>
