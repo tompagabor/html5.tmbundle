@@ -3,16 +3,20 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>&lt;html${1: ${2:lang='${3:en-us}'}${4: xmlns='http://www.w3.org/1999/xhtml'}}&gt;
+	<string>&lt;html${1:`
+if [[ $TM_LANG ]]
+  then echo -n " lang=\"${TM_LANG}\""
+fi
+`}&gt;
 $0
 &lt;/html&gt;</string>
 	<key>name</key>
-	<string>html</string>
+	<string>&lt;html&gt;</string>
 	<key>scope</key>
 	<string>text.html</string>
 	<key>tabTrigger</key>
 	<string>html</string>
 	<key>uuid</key>
-	<string>4976AC4F-D5C2-413A-AA7F-BDB8ADD9986E</string>
+	<string>C318C9AF-FF51-4E18-AA2F-9FA4E4899A22</string>
 </dict>
 </plist>
