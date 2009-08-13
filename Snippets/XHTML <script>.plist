@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>&lt;script src="${1:source file}"&gt;&lt;/script&gt;$0</string>
+	<string>&lt;script${1:${2: src="/javascripts/application.js"}${3: type="text/javascript"}${4: charset="utf-8"}${5: async}${6: defer}}&gt;&lt;/script&gt;$0</string>
 	<key>name</key>
-	<string>Script</string>
+	<string>&lt;script&gt;</string>
 	<key>scope</key>
 	<string>text.html</string>
 	<key>tabTrigger</key>
