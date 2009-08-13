@@ -132,7 +132,7 @@ end</string>
 	<key>input</key>
 	<string>selection</string>
 	<key>name</key>
-	<string>Insert Flash Movie (Swf)</string>
+	<string>drag 'n drop swf file</string>
 	<key>output</key>
 	<string>insertAsSnippet</string>
 	<key>scope</key>
