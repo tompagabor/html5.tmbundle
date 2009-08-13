@@ -3,14 +3,15 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>&lt;head&gt;
-${1:	&lt;meta charset='${2:utf-8}'${TM_XHTML}&gt;
-}	&lt;title&gt;${3:${TM_FILENAME/((.+)\..*)?/(?2:$2:Page Title)/}}&lt;/title&gt;
-&lt;/head&gt;</string>
+	<string>&lt;head&gt;${1:
+	&lt;meta charset="utf-8"&gt;}
+	&lt;title&gt;${2:${TM_FILENAME/((.+)\..*)?/(?2:$2:Page Title)/}}&lt;/title&gt;
+&lt;/head&gt;
+$0</string>
 	<key>name</key>
-	<string>Head</string>
+	<string>&lt;head&gt;</string>
 	<key>scope</key>
-	<string>text.html - text.html source</string>
+	<string>text.html</string>
 	<key>tabTrigger</key>
 	<string>head</string>
 	<key>uuid</key>
