@@ -1,14 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>&lt;table border="${1:0}"${2: cellspacing="${3:5}" cellpadding="${4:5}"}&gt;
-	&lt;tr&gt;&lt;th&gt;${5:Header}&lt;/th&gt;&lt;/tr&gt;
-	&lt;tr&gt;&lt;td&gt;${0:Data}&lt;/td&gt;&lt;/tr&gt;
+	<string>&lt;table&gt;${1:
+	&lt;caption&gt;${2:table title and/or explanatory text}&lt;/caption&gt;}
+	${3:&lt;thead&gt;
+		&lt;tr&gt;
+			${4:&lt;th&gt;${5:header}&lt;/th&gt;}
+		&lt;/tr&gt;
+	&lt;/thead&gt;
+	&lt;tbody&gt;
+		&lt;tr&gt;
+			${6:&lt;td&gt;${7:data}&lt;/td&gt;}
+		&lt;/tr&gt;
+	&lt;/tbody&gt;}
 &lt;/table&gt;</string>
 	<key>name</key>
-	<string>Table</string>
+	<string>&lt;table&gt;</string>
 	<key>scope</key>
 	<string>text.html</string>
 	<key>tabTrigger</key>
