@@ -6,7 +6,7 @@
 	<string>&lt;!DOCTYPE html&gt;
 $0</string>
 	<key>name</key>
-	<string>Insert Doctype</string>
+	<string>&lt;!DOCTYPE html&gt;</string>
 	<key>scope</key>
 	<string>text.html</string>
 	<key>tabTrigger</key>
