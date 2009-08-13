@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;header${1:${2: id="$3"}${4: class="$5"}}&gt;
+	${6:${7:&lt;p&gt;${8:Welcome to...}&lt;/p&gt;}
+	${9:&lt;h1&gt;${10:Voidwars!}&lt;/h1&gt;}}
+&lt;/header&gt;</string>
+	<key>name</key>
+	<string>&lt;header&gt;</string>
+	<key>scope</key>
+	<string>text.html</string>
+	<key>tabTrigger</key>
+	<string>header</string>
+	<key>uuid</key>
+	<string>A3F0F503-4775-42DD-8E0A-71D2EBBFFE4E</string>
+</dict>
+</plist>
