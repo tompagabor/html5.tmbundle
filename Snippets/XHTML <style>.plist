@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>&lt;style type="text/css" media="screen"&gt;
+	<string>&lt;style${1:${2: type="text/css"}${3: media="${4:screen}"}}&gt;
 	$0
 &lt;/style&gt;</string>
 	<key>name</key>
-	<string>Style</string>
+	<string>&lt;style&gt;</string>
 	<key>scope</key>
 	<string>text.html</string>
 	<key>tabTrigger</key>
