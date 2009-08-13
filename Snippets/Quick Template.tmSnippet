@@ -4,12 +4,16 @@
 <dict>
 	<key>content</key>
 	<string>&lt;!DOCTYPE html&gt;
-&lt;html${1:${2: lang='${3:en-us}'}${4: xmlns='http://www.w3.org/1999/xhtml'}}&gt;
-&lt;head&gt;
-${5:	&lt;meta charset='${6:utf-8}'${TM_XHTML}&gt;
-}	&lt;title&gt;${7:Page Title}&lt;/title&gt;
+&lt;html${1:`
+if [[ $TM_LANG ]]
+  then echo -n " lang=\"${TM_LANG}\""
+fi
+`}&gt;
+&lt;head&gt;${2:
+	&lt;meta charset="${3:utf-8}"${TM_XHTML}&gt;}
+	&lt;title&gt;${4:Page Title}&lt;/title&gt;
 &lt;/head&gt;
-&lt;body&gt;
+&lt;body${5:${6: id="$7"}${8: class="$9"}}&gt;
 	$0
 &lt;/body&gt;
 &lt;/html&gt;
@@ -19,7 +23,7 @@ ${5:	&lt;meta charset='${6:utf-8}'${TM_XHTML}&gt;
 	<key>scope</key>
 	<string>text.html</string>
 	<key>tabTrigger</key>
-	<string>qt</string>
+	<string>template</string>
 	<key>uuid</key>
 	<string>16E02FC6-2D39-406B-8927-E2770AFC72BA</string>
 </dict>
