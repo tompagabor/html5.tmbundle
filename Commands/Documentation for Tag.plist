@@ -10,7 +10,7 @@
 # Lookup current word as a tag name on whatwg.org
 #
 # The mapping below was generated using:
-# ruby -e 'STDOUT &lt;&lt; "$tags = {\n" &lt;&lt; `curl -s http://www.whatwg.org/specs/web-apps/current-work/multipage/semantics.html`.scan(%r{&lt;dfn id="(.*?)"&gt;&lt;code&gt;(.*?)&lt;/code&gt;&lt;/dfn&gt;}).map { |e| "  \"#{e[1]}\"".ljust(14) + " =&gt; \"#{e[0]}\"" }.join(",\n") &lt;&lt; "\n}\n"'
+# ruby -e 'STDOUT &lt;&lt; "$tags = {\n" &lt;&lt; `curl -s http://www.whatwg.org/specs/web-apps/current-work/`.scan(%r{&lt;dfn id="(.*?)"&gt;&lt;code&gt;(.*?)&lt;/code&gt;&lt;/dfn&gt;}).map { |e| "  \"#{e[1]}\"".ljust(14) + " =&gt; \"#{e[0]}\"" }.join(",\n") &lt;&lt; "\n}\n"'
 
 $tags = {
 "html" =&gt; "the-html-element",
@@ -136,15 +136,15 @@ line, col = ENV["TM_CURRENT_LINE"].to_s, ENV["TM_LINE_INDEX"].to_i
 tag = line =~ /\A.{0,#{col}}&lt;\s*(\w+)/ ? $1 : ENV["TM_CURRENT_WORD"].to_s
 
 path = $tags[tag] || request_tag_name(tag)
-url  = "http://www.whatwg.org/specs/web-apps/current-work/multipage/semantics.html#" + path
-puts "&lt;meta http-equiv='Refresh' content='0;URL=#{url}'&gt;"
+url  = "http://www.whatwg.org/specs/web-apps/current-work/?style=author#" + path
+`open #{url}`
 </string>
 	<key>input</key>
 	<string>none</string>
 	<key>keyEquivalent</key>
 	<string>^h</string>
 	<key>name</key>
-	<string>Lookup tag</string>
+	<string>Lookup element</string>
 	<key>output</key>
 	<string>showAsHTML</string>
 	<key>scope</key>
