@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>&lt;base href="$1"${2: target="$3"}${TM_XHTML}&gt;</string>
+	<string>&lt;base href="${1:http://example.com/}"${2: target="${3:_blank, _self, _parent, _top}"}${TM_XHTML}&gt;</string>
 	<key>name</key>
-	<string>base</string>
+	<string>&lt;base&gt;</string>
 	<key>scope</key>
 	<string>text.html</string>
 	<key>tabTrigger</key>
