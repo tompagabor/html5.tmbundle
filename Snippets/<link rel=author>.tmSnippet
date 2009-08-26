@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>&lt;link rel="${1:author}" href="${2:http://example.com/contact}"&gt;</string>
+	<string>&lt;link rel="author" href="${2:http://example.com/contact}"&gt;</string>
 	<key>name</key>
 	<string>&lt;link rel=author&gt;</string>
 	<key>scope</key>

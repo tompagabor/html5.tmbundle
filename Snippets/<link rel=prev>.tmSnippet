@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>&lt;link rel="${1:prev}" href="${2:/page1.html}"&gt;</string>
+	<string>&lt;link rel="prev" href="${2:/page1.html}"&gt;</string>
 	<key>name</key>
 	<string>&lt;link rel=prev&gt;</string>
 	<key>scope</key>
