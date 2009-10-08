@@ -136,7 +136,7 @@ line, col = ENV["TM_CURRENT_LINE"].to_s, ENV["TM_LINE_INDEX"].to_i
 tag = line =~ /\A.{0,#{col}}&lt;\s*(\w+)/ ? $1 : ENV["TM_CURRENT_WORD"].to_s
 
 path = $tags[tag] || request_tag_name(tag)
-url = "http://www.whatwg.org/specs/web-apps/current-work/?style=author&amp;slow-browser#" + path
+url = "http://www.whatwg.org/specs/web-apps/current-work/?slow-browser#" + path
 system("open '#{url}'")</string>
 	<key>input</key>
 	<string>none</string>
