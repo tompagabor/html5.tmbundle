@@ -11,7 +11,7 @@ STDOUT.sync = true
 page = STDIN.read
 page.gsub!(/&lt;\?(php|=).*?\?&gt;|&lt;%.*?%&gt;/m, '')
 
-open('|curl -F showimagereport=yes -F parser=html -F showsource=yes -F profile=pedagogical -sF content=@-\; http://validator.nu/', 'r+') do |io|
+open('|curl -F out=html -F showimagereport=yes -F parser=html -F showsource=yes -F profile=pedagogical -sF content=@-\; http://validator.nu/', 'r+') do |io|
 io &lt;&lt; page; io.close_write
   while line = io.gets
     line.gsub!(/&lt;\/title&gt;/, '\&amp;&lt;base href="http://validator.nu/"&gt;')
