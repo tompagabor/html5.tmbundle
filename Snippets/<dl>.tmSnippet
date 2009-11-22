@@ -3,10 +3,10 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>&lt;dl${1:${2: id="$3"}${4: class="$5"}}&gt;
-	${6:&lt;dt&gt;$7&lt;/dt&gt;
-	&lt;dd&gt;$8&lt;/dd&gt;}
-&lt;/dl&gt;</string>
+	<string>&lt;dl&gt;
+	&lt;dt&gt;$1&lt;/dt&gt;
+	&lt;dd&gt;$2&lt;/dd&gt;
+&lt;/dl&gt;$0</string>
 	<key>name</key>
 	<string>&lt;dl&gt;</string>
 	<key>scope</key>

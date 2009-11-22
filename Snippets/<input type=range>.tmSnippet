@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>&lt;input type="range" name="$2" value="$3"${TM_POLYGLOT}&gt;</string>
+	<string>&lt;input type="range" name="$2" value="$3"${TM_POLYGLOT}&gt;$0</string>
 	<key>name</key>
 	<string>&lt;input type=range&gt;</string>
 	<key>scope</key>

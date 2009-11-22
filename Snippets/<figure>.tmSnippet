@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>&lt;figure${1:${2: id="$3"}${4: class="$5"}}&gt;
-	${6:${7:&lt;dt&gt;${8:explanatory caption}&lt;/dt&gt;}}$0
-&lt;/figure&gt;</string>
+	<string>&lt;figure&gt;
+	${1:&lt;dt&gt;${2:explanatory caption}&lt;/dt&gt;}$3
+&lt;/figure&gt;$0</string>
 	<key>name</key>
 	<string>&lt;figure&gt;</string>
 	<key>scope</key>

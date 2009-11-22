@@ -15,7 +15,7 @@
 			${6:&lt;td&gt;${7:data}&lt;/td&gt;}
 		&lt;/tr&gt;
 	&lt;/tbody&gt;}
-&lt;/table&gt;</string>
+&lt;/table&gt;$0</string>
 	<key>name</key>
 	<string>&lt;table&gt;</string>
 	<key>scope</key>

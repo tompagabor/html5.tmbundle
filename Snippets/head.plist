@@ -6,8 +6,7 @@
 	<string>&lt;head&gt;${1:
 	&lt;meta charset="utf-8"${TM_POLYGLOT}&gt;}
 	&lt;title&gt;${2:${TM_FILENAME/((.+)\..*)?/(?2:$2:Page Title)/}}&lt;/title&gt;
-&lt;/head&gt;
-$0</string>
+&lt;/head&gt;$0</string>
 	<key>name</key>
 	<string>&lt;head&gt;</string>
 	<key>scope</key>

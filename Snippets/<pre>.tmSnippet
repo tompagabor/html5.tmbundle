@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>&lt;pre${1:${2: id="$3"}${4: class="$5"}}&gt;
-	$0
-&lt;/pre&gt;</string>
+	<string>&lt;pre&gt;
+	$1
+&lt;/pre&gt;$0</string>
 	<key>name</key>
 	<string>&lt;pre&gt;</string>
 	<key>scope</key>

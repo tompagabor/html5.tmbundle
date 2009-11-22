@@ -12,8 +12,7 @@
     &lt;param name="autoStart" value="${11:0}"${TM_POLYGLOT}&gt;
     ${12:&lt;p&gt;&lt;a href="$7"&gt;${13:Download this audio file.}&lt;/a&gt;&lt;/p&gt;}
   &lt;/object&gt;
-&lt;/audio&gt;
-$0</string>
+&lt;/audio&gt;$0</string>
 	<key>name</key>
 	<string>&lt;audio&gt; w/ legacy &lt;object&gt;</string>
 	<key>scope</key>

@@ -4,8 +4,8 @@
 <dict>
 	<key>content</key>
 	<string>&lt;style${1:${2: type="text/css"}${3: media="${4:screen}"}}&gt;
-	$0
-&lt;/style&gt;</string>
+	$5
+&lt;/style&gt;$0</string>
 	<key>name</key>
 	<string>&lt;style&gt;</string>
 	<key>scope</key>

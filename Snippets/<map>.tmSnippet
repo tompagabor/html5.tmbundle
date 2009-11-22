@@ -4,8 +4,8 @@
 <dict>
 	<key>content</key>
 	<string>&lt;map name="$1"&gt;
-	area$0
-&lt;/map&gt;</string>
+	$1
+&lt;/map&gt;$0</string>
 	<key>name</key>
 	<string>&lt;map&gt;</string>
 	<key>scope</key>

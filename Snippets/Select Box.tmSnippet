@@ -6,8 +6,8 @@
 	<string>4676FC6D-6227-11D9-BFB1-000D93589AF6</string>
 	<key>content</key>
 	<string>&lt;select name="$1"${2:${3: multiple}}&gt;
-	${4:&lt;option${5: value="$6"}&gt;$7&lt;/option&gt;}$0
-&lt;/select&gt;</string>
+	${4:&lt;option${5: value="$6"}&gt;$7&lt;/option&gt;}$8
+&lt;/select&gt;$0</string>
 	<key>name</key>
 	<string>&lt;select&gt;</string>
 	<key>scope</key>

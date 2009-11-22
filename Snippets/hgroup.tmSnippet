@@ -3,10 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>&lt;hgroup${1:${2: id="$3"}${4: class="$5"}}&gt;
-	${6:${7:&lt;h1&gt;${8:Dr. Strangelove}&lt;/h1&gt;}
-	${9:&lt;h2&gt;${10:Or: How I Learned to Stop Worrying and Love the Bomb}&lt;/h2&gt;}}
-&lt;/hgroup&gt;</string>
+	<string>&lt;hgroup&gt;
+	$1
+&lt;/hgroup&gt;$0</string>
 	<key>name</key>
 	<string>&lt;hgroup&gt;</string>
 	<key>scope</key>

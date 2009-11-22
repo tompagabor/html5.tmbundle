@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>&lt;body${1:${2: id="$3"}${4: class="$5"}}&gt;
-	$0
-&lt;/body&gt;</string>
+	<string>&lt;body&gt;
+	$1
+&lt;/body&gt;$0</string>
 	<key>name</key>
 	<string>&lt;body&gt;</string>
 	<key>scope</key>

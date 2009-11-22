@@ -12,8 +12,7 @@
     &lt;param name="autoStart" value="${11:0}"${TM_POLYGLOT}&gt;
     ${12:&lt;p&gt;&lt;a href="$6"&gt;${13:Download this video file.}&lt;/a&gt;&lt;/p&gt;}
   &lt;/object&gt;
-&lt;/video&gt;
-$0</string>
+&lt;/video&gt;$0</string>
 	<key>name</key>
 	<string>&lt;video&gt; w/ legacy &lt;object&gt;</string>
 	<key>scope</key>

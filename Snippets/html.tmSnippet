@@ -8,8 +8,8 @@ if [[ $TM_LANG ]]
   then echo -n " lang=\"${TM_LANG}\""
 fi
 `}&gt;
-$0
-&lt;/html&gt;</string>
+$2
+&lt;/html&gt;$0</string>
 	<key>name</key>
 	<string>&lt;html&gt;</string>
 	<key>scope</key>

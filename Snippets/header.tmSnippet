@@ -3,10 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>&lt;header${1:${2: id="$3"}${4: class="$5"}}&gt;
-	${6:${7:&lt;p&gt;${8:Welcome to...}&lt;/p&gt;}
-	${9:&lt;h1&gt;${10:Voidwars!}&lt;/h1&gt;}}
-&lt;/header&gt;</string>
+	<string>&lt;header&gt;
+	$1
+&lt;/header&gt;$0</string>
 	<key>name</key>
 	<string>&lt;header&gt;</string>
 	<key>scope</key>

@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>&lt;col${1: span="$2"}${TM_POLYGLOT}&gt;</string>
+	<string>&lt;col${1: span="$2"}${TM_POLYGLOT}&gt;$0</string>
 	<key>name</key>
 	<string>&lt;col&gt;</string>
 	<key>scope</key>
