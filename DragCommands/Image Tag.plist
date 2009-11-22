@@ -7,7 +7,7 @@
 echo -n "&lt;img src=\"$img\" "
 base=${img##*/}
 alt=$(tr &lt;&lt;&lt;${base%.*} '[_-]' ' '|perl -pe 's/(\w+)/\u$1/g')
-echo -n "alt=\"$alt\"${TM_XHTML}&gt;"
+echo -n "alt=\"$alt\"${TM_POLYGLOT}&gt;"
 </string>
 	<key>draggedFileExtensions</key>
 	<array>

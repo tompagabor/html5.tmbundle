@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>command</key>
-	<string>echo "&lt;link rel=\"stylesheet\" href=\"$TM_DROPPED_FILE\"$TM_XHTML&gt;"</string>
+	<string>echo "&lt;link rel=\"stylesheet\" href=\"$TM_DROPPED_FILE\"$TM_POLYGLOT&gt;"</string>
 	<key>draggedFileExtensions</key>
 	<array>
 		<string>css</string>

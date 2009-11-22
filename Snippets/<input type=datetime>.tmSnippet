@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>&lt;input type="datetime" name="$2" value="$3"${TM_XHTML}&gt;</string>
+	<string>&lt;input type="datetime" name="$2" value="$3"${TM_POLYGLOT}&gt;</string>
 	<key>name</key>
 	<string>&lt;input type=datetime&gt;</string>
 	<key>scope</key>

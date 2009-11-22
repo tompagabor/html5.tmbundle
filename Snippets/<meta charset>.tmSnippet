@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>&lt;meta charset="${1:utf-8}"&gt;</string>
+	<string>&lt;meta charset="${1:utf-8}"${TM_POLYGLOT}&gt;</string>
 	<key>name</key>
 	<string>&lt;meta charset&gt;</string>
 	<key>scope</key>

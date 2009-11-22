@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>&lt;source src="$1"${2:${3: type="$4"}${5: media="$6"}}&gt;</string>
+	<string>&lt;source src="$1"${2:${3: type="$4"}${5: media="$6"}}${TM_POLYGLOT}&gt;</string>
 	<key>name</key>
 	<string>&lt;source&gt;</string>
 	<key>scope</key>

@@ -5,7 +5,7 @@
 	<key>content</key>
 	<string>${0:${TM_SELECTED_TEXT/\A&lt;strong&gt;(.*)&lt;\/strong&gt;\z|.*/(?1:$1:&lt;strong&gt;$0&lt;\/strong&gt;)/m}}</string>
 	<key>keyEquivalent</key>
-	<string>~@B</string>
+	<string>@B</string>
 	<key>name</key>
 	<string>&lt;strong&gt;</string>
 	<key>scope</key>

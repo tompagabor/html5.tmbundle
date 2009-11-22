@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>&lt;link rel="prefetch" href="${2:/images/chart.png}"&gt;</string>
+	<string>&lt;link rel="prefetch" href="${2:/images/chart.png}"${TM_POLYGLOT}&gt;</string>
 	<key>name</key>
 	<string>&lt;link rel=prefetch&gt;</string>
 	<key>scope</key>

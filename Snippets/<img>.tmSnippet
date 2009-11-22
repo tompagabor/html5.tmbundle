@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>&lt;img src="$1" alt="$2"${TM_XHTML}&gt;$0</string>
+	<string>&lt;img src="$1" alt="$2"${TM_POLYGLOT}&gt;$0</string>
 	<key>name</key>
 	<string>&lt;img&gt;</string>
 	<key>scope</key>

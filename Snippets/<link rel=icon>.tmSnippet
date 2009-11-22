@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>&lt;link rel="icon" href="${2:/favicon.png}"&gt;</string>
+	<string>&lt;link rel="icon" href="${2:/favicon.png}"${TM_POLYGLOT}&gt;</string>
 	<key>name</key>
 	<string>&lt;link rel=icon&gt;</string>
 	<key>scope</key>

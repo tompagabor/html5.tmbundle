@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>&lt;param name="$1" value="$2"&gt;</string>
+	<string>&lt;param name="$1" value="$2"${TM_POLYGLOT}&gt;</string>
 	<key>name</key>
 	<string>&lt;param&gt;</string>
 	<key>scope</key>
