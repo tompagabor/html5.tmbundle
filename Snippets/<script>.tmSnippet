@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>&lt;script${1:${2: src="/javascripts/application.js"}${3: type="text/javascript"}${4: charset="utf-8"}${5: async}${6: defer}}&gt;&lt;/script&gt;$0</string>
+	<string>&lt;script${1: src="${2:/javascripts/application.js}"${3: type="text/javascript"}${4: charset="${5:utf-8}"}${6: async}${7: defer}}&gt;$8&lt;/script&gt;$0</string>
 	<key>name</key>
 	<string>&lt;script&gt;</string>
 	<key>scope</key>
