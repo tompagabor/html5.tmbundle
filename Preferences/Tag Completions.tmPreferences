@@ -20,7 +20,7 @@
 				<key>name</key>
 				<string>TM_COMPLETIONS</string>
 				<key>value</key>
-				<string>a,abbr,acronym,address,applet,area,b,base,basefont,bdo,big,blockquote,br,button,caption,center,cite,code,col,colgroup,dd,del,dfn,dir,div,dl,dt,em,fieldset,font,form,frame,frameset,h1,h2,h3,h4,h5,h6,head,hr,html,i,iframe,img,input,ins,isindex,kbd,label,legend,li,link,map,menu,meta,noframes,noscript,object,ol,optgroup,option,p,param,pre,q,s,samp,script,select,small,span,strike,strong,style,sub,sup,table,tbody,td,textarea,tfoot,th,thead,title,tr,tt,u,ul,var</string>
+				<string>html,head,title,base,link,meta,style,script,noscript,body,section,nav,article,aside,h1,h2,h3,h4,h5,h6,hgroup,header,footer,address,p,hr,br,pre,dialog,blockquote,ol,ul,li,dl,dt,dd,a,q,cite,em,strong,small,mark,dfn,abbr,time,progress,meter,code,var,samp,kbd,sub,sup,span,i,b,bdo,ruby,rt,rp,ins,del,figure,img,iframe,embed,object,param,video,audio,source,canvas,map,area,table,caption,colgroup,col,tbody,thead,tfoot,tr,td,th,form,fieldset,label,input,button,select,datalist,optgroup,option,textarea,output,details,datagrid,command,bb,menu,legend,div</string>
 			</dict>
 		</array>
 	</dict>
