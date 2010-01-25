@@ -3,14 +3,17 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>&lt;!--[if lt IE 6]&gt;${1:${TM_SELECTED_TEXT:  IE Conditional Comment: Internet Explorer 5.x      }}&lt;![endif]--&gt;$0</string>
+	<string>&lt;html`if [[ $TM_LANG ]]; then echo " lang=\"$TM_LANG\""; fi`&gt;
+$0
+&lt;/html&gt;
+</string>
 	<key>name</key>
-	<string>IE Conditional Comment: Internet Explorer 5.x</string>
+	<string>&lt;html&gt;</string>
 	<key>scope</key>
 	<string>text.html</string>
 	<key>tabTrigger</key>
-	<string>!</string>
+	<string>html</string>
 	<key>uuid</key>
-	<string>F3512848-7889-45DA-993B-0547976C8E6D</string>
+	<string>172060BD-346E-4B95-95E7-57D3F9995DCB</string>
 </dict>
 </plist>

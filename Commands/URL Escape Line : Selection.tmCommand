@@ -7,17 +7,9 @@
 	<key>command</key>
 	<string>#!/usr/bin/env ruby
 
-def e_js(str)
-  str.gsub(/(?=[\\"])/, '\\').gsub(/\n/, '\n').gsub(/[@.\/]/) { |ch| sprintf('\\%03o', ch[0]) }
-end
-
-def rot_13(str)
-  str.tr('A-Za-z', 'N-ZA-Mn-za-m')
-end
-
-print %{&lt;script type="text/javascript"&gt;document.write(
-"#{e_js(rot_13(STDIN.read))}".replace(/[a-zA-Z]/g, function(c){return String.fromCharCode((c&lt;="Z"?90:122)&gt;=(c=c.charCodeAt(0)+13)?c:c-26);}));
-&lt;/script&gt;}
+print STDIN.read.gsub(/([^a-zA-Z0-9_.-]+)/n) {
+  '%' + $1.unpack('H2' * $1.size).join('%').upcase
+}
 </string>
 	<key>fallbackInput</key>
 	<string>line</string>
@@ -26,12 +18,12 @@ print %{&lt;script type="text/javascript"&gt;document.write(
 	<key>keyEquivalent</key>
 	<string>@&amp;</string>
 	<key>name</key>
-	<string>Encrypt Line / Selection (ROT 13)</string>
+	<string>URL Escape Line / Selection</string>
 	<key>output</key>
 	<string>replaceSelectedText</string>
 	<key>scope</key>
 	<string>text.html</string>
 	<key>uuid</key>
-	<string>9B13543F-8356-443C-B6E7-D9259B604927</string>
+	<string>6B024865-6095-4CE3-8EDD-DC6F2230C2FF</string>
 </dict>
 </plist>

@@ -3,14 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>&lt;!--[if lt IE 6]&gt;${1:${TM_SELECTED_TEXT:  IE Conditional Comment: Internet Explorer 5.x      }}&lt;![endif]--&gt;$0</string>
+	<string>&amp;#x2326;</string>
 	<key>name</key>
-	<string>IE Conditional Comment: Internet Explorer 5.x</string>
+	<string>⌦</string>
 	<key>scope</key>
 	<string>text.html</string>
 	<key>tabTrigger</key>
-	<string>!</string>
+	<string>delete</string>
 	<key>uuid</key>
-	<string>F3512848-7889-45DA-993B-0547976C8E6D</string>
+	<string>44E448B6-37CE-4BFE-8611-C5113593B74B</string>
 </dict>
 </plist>

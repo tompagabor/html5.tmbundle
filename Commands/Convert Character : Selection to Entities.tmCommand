@@ -6,32 +6,35 @@
 	<string>nop</string>
 	<key>command</key>
 	<string>#!/usr/bin/env ruby
+$KCODE = 'U'
 
-def e_js(str)
-  str.gsub(/(?=[\\"])/, '\\').gsub(/\n/, '\n').gsub(/[@.\/]/) { |ch| sprintf('\\%03o', ch[0]) }
+$char_to_entity = { }
+File.open("#{ENV['TM_BUNDLE_SUPPORT']}/entities.txt").read.scan(/^(\d+)\t(.+)$/) do |key, value|
+  $char_to_entity[[key.to_i].pack('U')] = value
 end
 
-def rot_13(str)
-  str.tr('A-Za-z', 'N-ZA-Mn-za-m')
+def encode (text)
+  text.gsub(/[^\x00-\x7F]|["'&lt;&gt;&amp;]/) do |ch|
+    ent = $char_to_entity[ch]
+    ent ? "&amp;#{ent};" : sprintf("&amp;#x%02X;", ch.unpack("U")[0])
+  end
 end
 
-print %{&lt;script type="text/javascript"&gt;document.write(
-"#{e_js(rot_13(STDIN.read))}".replace(/[a-zA-Z]/g, function(c){return String.fromCharCode((c&lt;="Z"?90:122)&gt;=(c=c.charCodeAt(0)+13)?c:c-26);}));
-&lt;/script&gt;}
+print encode(STDIN.read)
 </string>
 	<key>fallbackInput</key>
-	<string>line</string>
+	<string>character</string>
 	<key>input</key>
 	<string>selection</string>
 	<key>keyEquivalent</key>
 	<string>@&amp;</string>
 	<key>name</key>
-	<string>Encrypt Line / Selection (ROT 13)</string>
+	<string>Convert Character / Selection to Entities</string>
 	<key>output</key>
 	<string>replaceSelectedText</string>
 	<key>scope</key>
 	<string>text.html</string>
 	<key>uuid</key>
-	<string>9B13543F-8356-443C-B6E7-D9259B604927</string>
+	<string>3DD8406C-A116-11D9-A5A2-000D93C8BE28</string>
 </dict>
 </plist>
