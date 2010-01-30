@@ -3,17 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>&lt;details&gt;
-	&lt;summary&gt;${1:title or explanatory caption}&lt;/summary&gt;
-	$2
-&lt;/details&gt;$0</string>
+	<string>&lt;summary&gt;$1&lt;/summary&gt;$0</string>
 	<key>name</key>
-	<string>&lt;details&gt;</string>
+	<string>&lt;summary&gt;</string>
 	<key>scope</key>
 	<string>text.html</string>
 	<key>tabTrigger</key>
-	<string>details</string>
+	<string>summary</string>
 	<key>uuid</key>
-	<string>7D36AE50-5C5F-445C-9FD2-B6AFBFAD29A9</string>
+	<string>DA80E7E5-2832-434F-9BCF-A86C3FC99E88</string>
 </dict>
 </plist>

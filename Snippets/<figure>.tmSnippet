@@ -4,7 +4,8 @@
 <dict>
 	<key>content</key>
 	<string>&lt;figure&gt;
-	${1:&lt;dt&gt;${2:explanatory caption}&lt;/dt&gt;}$3
+	${1:&lt;figcaption&gt;${2:explanatory caption}&lt;/figcaption&gt;}
+	$3
 &lt;/figure&gt;$0</string>
 	<key>name</key>
 	<string>&lt;figure&gt;</string>
