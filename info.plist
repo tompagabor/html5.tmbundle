@@ -4,11 +4,19 @@
 <dict>
 	<key>mainMenu</key>
 	<dict>
+		<key>excludedItems</key>
+		<array>
+			<string>3C44EABE-8D6F-4B1B-AB91-F419FAD1A0AD</string>
+			<string>16E02FC6-2D39-406B-8927-E2770AFC72BA</string>
+			<string>0658019F-3635-462E-AAC2-74E4FE508A9B</string>
+			<string>2ED44A32-C353-447F-BAE4-E3522DB6944D</string>
+			<string>CBD82CF3-74E9-4E7A-B3F6-9348754EB5AA</string>
+			<string>3463E85F-F500-49A0-8631-D78ED85F9D60</string>
+		</array>
 		<key>items</key>
 		<array>
 			<string>1274DFD1-175E-43A0-B226-58EF777D0285</string>
 			<string>637CEA2B-578C-429C-BB74-30E8D42BFA22</string>
-			<string>16E02FC6-2D39-406B-8927-E2770AFC72BA</string>
 			<string>------------------------------------</string>
 			<string>A7283C84-9E44-4D4A-983A-0F185F68BB71</string>
 			<string>B002A609-8235-4368-BBA8-B35FBF4F676E</string>
@@ -21,14 +29,10 @@
 			<string>------------------------------------</string>
 			<string>B8651C6E-A05E-11D9-86AC-000D93C8BE28</string>
 			<string>970EE6B4-A091-11D9-A5A2-000D93C8BE28</string>
+			<string>------------------------------------</string>
 			<string>20D760B5-A127-11D9-A5A2-000D93C8BE28</string>
 			<string>BC8B8AE2-5F16-11D9-B9C3-000D93589AF6</string>
 			<string>991E7EBD-F3F5-469A-BA01-DC30E04AD472</string>
-			<string>3C44EABE-8D6F-4B1B-AB91-F419FAD1A0AD</string>
-			<string>0658019F-3635-462E-AAC2-74E4FE508A9B</string>
-			<string>2ED44A32-C353-447F-BAE4-E3522DB6944D</string>
-			<string>CBD82CF3-74E9-4E7A-B3F6-9348754EB5AA</string>
-			<string>3463E85F-F500-49A0-8631-D78ED85F9D60</string>
 			<string>7B7E945E-A112-11D9-A5A2-000D93C8BE28</string>
 		</array>
 		<key>submenus</key>
@@ -479,7 +483,6 @@
 		<string>20D760B5-A127-11D9-A5A2-000D93C8BE28</string>
 		<string>970EE6B4-A091-11D9-A5A2-000D93C8BE28</string>
 		<string>B8651C6E-A05E-11D9-86AC-000D93C8BE28</string>
-		<string>92F77050-74F9-4DF7-9A6E-2B42641849F7</string>
 		<string>B79BDBCF-D0C9-468E-BE62-744074D7825F</string>
 		<string>E7C5859E-122D-4382-84BE-5AB584DC2409</string>
 		<string>73251DBE-EBD2-470F-8148-E6F2EC1A9641</string>

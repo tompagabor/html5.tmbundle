@@ -5,7 +5,7 @@
 	<key>content</key>
 	<string>&amp;nbsp;</string>
 	<key>keyEquivalent</key>
-	<string>~ </string>
+	<string>@ </string>
 	<key>name</key>
 	<string>non-breaking space</string>
 	<key>scope</key>
