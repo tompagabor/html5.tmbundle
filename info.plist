@@ -7,7 +7,6 @@
 		<key>excludedItems</key>
 		<array>
 			<string>3C44EABE-8D6F-4B1B-AB91-F419FAD1A0AD</string>
-			<string>16E02FC6-2D39-406B-8927-E2770AFC72BA</string>
 			<string>0658019F-3635-462E-AAC2-74E4FE508A9B</string>
 			<string>2ED44A32-C353-447F-BAE4-E3522DB6944D</string>
 			<string>CBD82CF3-74E9-4E7A-B3F6-9348754EB5AA</string>
@@ -18,6 +17,7 @@
 		<array>
 			<string>1274DFD1-175E-43A0-B226-58EF777D0285</string>
 			<string>637CEA2B-578C-429C-BB74-30E8D42BFA22</string>
+			<string>16E02FC6-2D39-406B-8927-E2770AFC72BA</string>
 			<string>------------------------------------</string>
 			<string>A7283C84-9E44-4D4A-983A-0F185F68BB71</string>
 			<string>B002A609-8235-4368-BBA8-B35FBF4F676E</string>
@@ -507,6 +507,8 @@
 		<string>34438ACE-808E-4D60-8589-826FB7C6CBE0</string>
 		<string>F3BE0F2E-93D8-40FD-BA2B-4636F7726DDC</string>
 		<string>157E2240-DC62-40C7-8BEE-2EA193E575F4</string>
+		<string>8415F03D-0CE4-4478-808B-65ED611D5BCD</string>
+		<string>CEF25D24-ED3B-445E-890E-124984B1C842</string>
 	</array>
 	<key>uuid</key>
 	<string>79DE1A1A-DCD0-4E2F-B20B-8FEFE97A7270</string>

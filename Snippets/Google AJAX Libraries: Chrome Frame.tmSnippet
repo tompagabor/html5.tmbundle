@@ -3,14 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>&lt;script src="http://ajax.googleapis.com/ajax/libs/dojo/${1:1.4}/dojo/dojo.xd.js${2:.uncompressed.js}"&gt;&lt;/script&gt;</string>
+	<string>&lt;script src="http://ajax.googleapis.com/ajax/libs/chrome-frame/${1:1}/CFInstall${2:.min}.js"&gt;&lt;/script&gt;</string>
 	<key>name</key>
-	<string>Google AJAX Libraries: Dojo</string>
+	<string>Google AJAX Libraries: Chrome Frame</string>
 	<key>scope</key>
 	<string>text.html</string>
 	<key>tabTrigger</key>
-	<string>dojo</string>
+	<string>cf</string>
 	<key>uuid</key>
-	<string>08C01157-7A32-4D3B-A15B-32FE02F288A9</string>
+	<string>8415F03D-0CE4-4478-808B-65ED611D5BCD</string>
 </dict>
 </plist>

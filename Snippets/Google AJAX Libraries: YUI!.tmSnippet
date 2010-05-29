@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>&lt;script src="http://ajax.googleapis.com/ajax/libs/yui/${1:2.7}/build/yuiloader/yuiloader${2:-min}.js"&gt;&lt;/script&gt;</string>
+	<string>&lt;script src="http://ajax.googleapis.com/ajax/libs/yui/${1:2.8}/build/yuiloader/yuiloader${2:-min}.js"&gt;&lt;/script&gt;</string>
 	<key>name</key>
 	<string>Google AJAX Libraries: YUI!</string>
 	<key>scope</key>

@@ -3,10 +3,10 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>&lt;!DOCTYPE HTML&gt;
+	<string>&lt;!DOCTYPE html&gt;
 $0</string>
 	<key>name</key>
-	<string>&lt;!DOCTYPE HTML&gt;</string>
+	<string>&lt;!DOCTYPE html&gt;</string>
 	<key>scope</key>
 	<string>text.html</string>
 	<key>tabTrigger</key>

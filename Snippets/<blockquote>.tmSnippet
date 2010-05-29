@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>&lt;blockquote${1: cite="${2:http://example.com/facts}"}}&gt;
+	<string>&lt;blockquote${1: cite="${2:http://example.com/facts}"}&gt;
 	$3
 &lt;/blockquote&gt;$0</string>
 	<key>name</key>
