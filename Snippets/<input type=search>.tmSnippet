@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>&lt;input type="search" name="$2" value="$3"${TM_POLYGLOT}&gt;$0</string>
+	<string>&lt;input type="search" name="${2:keywords}" value="$3" placeholder="${4:Search}" results="${5:0}"&gt;$0</string>
 	<key>name</key>
 	<string>&lt;input type=search&gt;</string>
 	<key>scope</key>
