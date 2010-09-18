@@ -10,7 +10,7 @@ $0</string>
 	<key>scope</key>
 	<string>text.html</string>
 	<key>tabTrigger</key>
-	<string>dc</string>
+	<string>doctype</string>
 	<key>uuid</key>
 	<string>A7283C84-9E44-4D4A-983A-0F185F68BB71</string>
 </dict>
