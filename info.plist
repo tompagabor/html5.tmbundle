@@ -110,7 +110,12 @@
 					<string>2E052273-464E-4EA1-9C38-1041527F8634</string>
 					<string>EBE37587-6235-4BE1-A389-FECE0325198E</string>
 					<string>BD8EB824-A106-4FE4-BF41-339BDE48AAEF</string>
+<<<<<<< HEAD
 					<string>E30BD374-FE32-4767-BBB1-95C61C5B3105</string>
+=======
+                    <string>E30BD374-FE32-4767-BBB1-95C61C5B3105</string>
+                    <string>0CE9F6B2-056B-4565-951A-83FD924209C3</string>
+>>>>>>> 1629d92fea2fe8d6f8219c7c9886fd7446a21436
 				</array>
 				<key>name</key>
 				<string>Grouping content</string>
@@ -368,8 +373,13 @@
 		<string>2E052273-464E-4EA1-9C38-1041527F8634</string>
 		<string>EBE37587-6235-4BE1-A389-FECE0325198E</string>
 		<string>BD8EB824-A106-4FE4-BF41-339BDE48AAEF</string>
+<<<<<<< HEAD
 		<string>E30BD374-FE32-4767-BBB1-95C61C5B3105</string>
 		<string>0CE9F6B2-056B-4565-951A-83FD924209C3</string>
+=======
+        <string>E30BD374-FE32-4767-BBB1-95C61C5B3105</string>
+        <string>0CE9F6B2-056B-4565-951A-83FD924209C3</string>
+>>>>>>> 1629d92fea2fe8d6f8219c7c9886fd7446a21436
 		<string>9E586FE2-E066-440D-880C-5493FD54FA33</string>
 		<string>81DA4C74-A530-11D9-9BCD-000D93C8BE28</string>
 		<string>B23D6E15-6B33-11D9-86C1-000D93589AF6</string>
