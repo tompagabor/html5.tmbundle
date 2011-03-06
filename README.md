@@ -8,7 +8,7 @@ The quickest way to install the bundle is via the command line. If you have Git 
 
     mkdir -p ~/Library/Application\ Support/TextMate/Bundles
     cd ~/Library/Application\ Support/TextMate/Bundles
-    git clone git://github.com:svnlto/html5.tmbundle.git "html5.tmbundle"
+    git clone git://github.com/svnlto/html5.tmbundle.git "html5.tmbundle"
     osascript -e 'tell app "TextMate" to reload bundles'
 
 ### Install without Git:
